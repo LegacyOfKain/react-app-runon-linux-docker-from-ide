@@ -2,22 +2,6 @@
 
 This project includes Docker support for development and building. Here are the special Docker commands you can use:
 
-### Running the Development Environment
-
-To start the development environment using Docker, run:
-
-```bash
-npm run docker:dev
-```
-
-or if you're using Yarn:
-
-```bash
-yarn docker:dev
-```
-
-This command will start the Docker containers and run the development server on port 5173.
-
 ### Building the Project
 
 To build the project using Docker, use one of the following commands based on your operating system:
@@ -53,5 +37,23 @@ These commands will:
 4. Stop and remove the Docker containers
 
 After running these commands, you'll find the built project in the `./dist` directory, ready for deployment.
+
+
+### Running the Development Environment
+
+To start the development environment using Docker, run:
+
+```bash
+npm run docker:dev
+```
+
+or if you're using Yarn:
+
+```bash
+yarn docker:dev
+```
+
+This command will start the Docker containers and run the development server on port 5173.
+
 
 Note: Make sure you have Docker and Docker Compose installed on your system before running these commands.
